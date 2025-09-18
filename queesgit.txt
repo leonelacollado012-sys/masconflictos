@@ -8,3 +8,8 @@ Trabajar con GitHub implica usar Git para gestionar los cambios en tu código.
 luego usar GitHub como una plataforma en línea para almacenar y colaborar. 
 Esencialmente, usas Git en tu computadora para rastrear tu trabajo y GitHub para compartirlo con el mundo.
 
+COMO SINCRONIZAR GIT CON GITHUB
+Sincronizar Git con GitHub es un proceso de dos vías: 
+subir (push) tus cambios locales a la nube y bajar (pull) los cambios de la nube a tu computadora. 
+El primer paso es establecer la conexión entre ambos.
+

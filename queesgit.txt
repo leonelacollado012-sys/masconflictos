@@ -8,3 +8,42 @@ Trabajar con GitHub implica usar Git para gestionar los cambios en tu código.
 luego usar GitHub como una plataforma en línea para almacenar y colaborar. 
 Esencialmente, usas Git en tu computadora para rastrear tu trabajo y GitHub para compartirlo con el mundo.
 
+
+Establecer la conexión 
+Para que Git sepa dónde está tu repositorio en GitHub, debes vincularlos.
+Si ya clonaste un repositorio de GitHub, la conexión ya está hecha. 
+Si creaste un proyecto localmente, debes seguir estos pasos:
+
+1) Crea un repositorio en GitHub: Ve a GitHub y crea un nuevo repositorio. No le añadas ningún archivo (como un README.md) para evitar conflictos.
+
+2)Vincula tu proyecto local: En tu terminal, dentro de la carpeta de tu proyecto local, usa git remote add para vincularlo a la URL de tu repositorio de GitHub.
+
+Bash
+git remote add origin <URL del repositorio>
+Reemplaza <URL del repositorio> con la dirección que te da GitHub.
+
+2. Sincronizar tus cambios 🔄
+Una vez que la conexión está hecha, el proceso de sincronización es muy sencillo:
+
+Para subir tus cambios (Push)
+Cuando hagas cambios en tu computadora y quieras subirlos a GitHub, usa git push.
+
+Bash
+git push origin <nombre-de-la-rama>
+El origin se refiere al repositorio remoto que vinculaste, y <nombre-de-la-rama> es la rama en la que estás trabajando 
+(usualmente main o master).
+
+Tip: La primera vez que haces un push de una rama, usa el comando git push -u origin <nombre-de-la-rama>. 
+El -u (o --set-upstream) establece una conexión permanente entre tu rama local y la remota, para que en el futuro solo tengas que usar git push.
+
+Para bajar los cambios de otros (Pull)
+Cuando otros colaboradores (o tú mismo desde otra computadora) hayan subido cambios a GitHub, 
+usa git pull para descargarlos y fusionarlos con tu versión local.
+
+Bash
+git pull origin <nombre-de-la-rama>
+Si ya usaste el comando con el -u, solo necesitas ejecutar git pull y Git sabrá de dónde descargar los cambios.
+
+En resumen, git push envía tus cambios a GitHub y git pull trae los cambios de GitHub a tu computadora. 
+Al usar estos dos comandos con regularidad, te aseguras de que tu versión local del 
+proyecto esté siempre sincronizada con la remota.

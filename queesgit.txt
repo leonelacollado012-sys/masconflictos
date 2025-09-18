@@ -1,5 +1,4 @@
-Git
-*Es un sistema de control de versiones que te permite: 
-1 rastrear 
-2  gestionar los cambios en el código de tu proyecto a lo largo del tiempo.
-3 Es como una máquina del tiempo para tu código.
+Git es: 
+* un sistema de control de versiones que te permite rastrear y gestionar los cambios en el código de tu proyecto a lo largo del tiempo. 
+*Es como una máquina del tiempo para tu código.
+

@@ -1,3 +1,8 @@
 Git es: 
 * un sistema de control de versiones que te permite rastrear y gestionar los cambios en el código de tu proyecto a lo largo del tiempo. 
 *Es como una máquina del tiempo para tu código.
+
+TRABAJAR CON GITHUB
+Trabajar con GitHub implica usar Git para gestionar los cambios en tu código.
+luego usar GitHub como una plataforma en línea para almacenar y colaborar. 
+Esencialmente, usas Git en tu computadora para rastrear tu trabajo y GitHub para compartirlo con el mundo.

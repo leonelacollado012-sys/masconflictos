@@ -47,3 +47,8 @@ Si ya usaste el comando con el -u, solo necesitas ejecutar git pull y Git sabrá
 En resumen, git push envía tus cambios a GitHub y git pull trae los cambios de GitHub a tu computadora. 
 Al usar estos dos comandos con regularidad, te aseguras de que tu versión local del 
 proyecto esté siempre sincronizada con la remota.
+COMO SINCRONIZAR GIT CON GITHUB
+Sincronizar Git con GitHub es un proceso de dos vías: 
+subir (push) tus cambios locales a la nube y bajar (pull) los cambios de la nube a tu computadora. 
+El primer paso es establecer la conexión entre ambos.
+
